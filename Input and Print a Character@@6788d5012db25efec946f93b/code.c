@@ -2,8 +2,7 @@
 
 int main{
     char n;
-    printf("");
     scanf("%c",&n);
-    printf("%c",n);
+    printf("%cYou entered:",n);
     return 0;
 }
