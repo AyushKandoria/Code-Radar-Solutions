@@ -1,9 +1,9 @@
 #include<stdio.h>
 int main(){
-    char q,u;
-    scanf("%c",&u);
+    char q,w,u,a,e,i,o,u;
+    scanf("%c",&w);
     q=a,e,i,o,u;
-    if(u==q){
+    if(w==q){
         printf("Vowel");
     }else {
         printf("Consonant");
