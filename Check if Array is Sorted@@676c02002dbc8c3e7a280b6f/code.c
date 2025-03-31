@@ -5,13 +5,14 @@ int main(){
     int arr[n];
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
-    }for(int i=0;i<n;i++){
+    }
+    int x=0;
+    for(int i=0;i<n;i++){
         if(arr[i]>arr[i]+1){
-            printf("Sorted");
+            x=1;
             break;
         }
-        // else{
-        //     printf("Not Sorted");
-        // }
     }
+    if(x==0) printf("Sorted");
+    else printf("Not Sorted");
 }
