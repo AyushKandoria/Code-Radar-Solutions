@@ -8,19 +8,19 @@ int main() {
    for(int i=0;i<n;i++){
     scanf("%d",&arr[n]);
    }
-   int max=arr[0]
+   int max=arr[0];
    for(int i=0;i<n;i++){
        if(arr[i]>max){
             max=arr[i];
         }int min=1000000;
-        for(int i=0;i<n;i++){
-            if(arr[i]<min){
-                min=arr[i];
+        for(int j=0;j<n;j++){
+            if(arr[j]<min){
+                min=arr[j];
 
             }
         }
    }
-   printf("%d",min);
+   printf("%d ",min);
    printf("%d",max);
 
     return 0;
